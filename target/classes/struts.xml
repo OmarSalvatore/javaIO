@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+ 	<!-- <constant name="struts.action.extension" value="net, html"/> -->
+ 	<constant name="struts.configuration.xml.reload" value="true" /> 
+	<package name="user" namespace="/acceso" extends="struts-default">
+		<action name="welcome" class="mx.com.metstli.action.Login">
+			<result name="success">../vistaAcceso/bienvenida.jsp</result>
+		</action>
+	</package>
+
+</struts>
