@@ -23,17 +23,25 @@
 				</div>
 				<div class="modal-body">
 					<form action="acceso/welcome" method="POST">
-						<input type="text" name="username" placeholder="Username">
-						<input type="password" name="password" placeholder="Password">
-						<input type="submit" name="login" class="login loginmodal-submit"
-							value="Login">
+						<div class="input-group">
+							<span class="input-group-addon glyphicon glyphicon-user
+							"></span> <input type="text"
+								class="form-control" name="username"
+								placeholder="Nombre de usuario">
+						</div>
+						<span></span>
+						<div class="input-group">
+							<span class="input-group-addon glyphicon glyphicon-asterisk"></span> <input type="text"
+								class="form-control" name="password" placeholder="Contrase&ntilde;a">
+						</div>
+						<br> <input type="submit" name="login"
+							class="login loginmodal-submit" value="Login">
 					</form>
 					<div class="login-help">
 						<a href="#">Register</a> - <a href="#">Forgot Password</a>
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</div>
 </body>

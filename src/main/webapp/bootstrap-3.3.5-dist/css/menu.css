@@ -149,3 +149,8 @@
 	section{
 		padding-left: 15px;
 	}
+	.main{
+		/*background-color: #F5F6CE;*/
+		background-image: url("../../images/fondo2.jpg");
+		height: 100%;
+	}
